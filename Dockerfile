@@ -14,7 +14,7 @@ RUN yarn install
 COPY . .
 
 # Build the NestJS application
-RUN yarn run build
+# RUN yarn run build
 
 # Expose the port the app runs on
 EXPOSE 3000
